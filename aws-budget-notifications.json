@@ -1,0 +1,47 @@
+[
+  {
+    "Notification": {
+      "NotificationType": "ACTUAL",
+      "ComparisonOperator": "GREATER_THAN",
+      "Threshold": 80.0,
+      "ThresholdType": "PERCENTAGE",
+      "NotificationState": "ALARM"
+    },
+    "Subscribers": [
+      {
+        "SubscriptionType": "EMAIL",
+        "Address": "network.app1410@gmail.com"
+      }
+    ]
+  },
+  {
+    "Notification": {
+      "NotificationType": "FORECASTED",
+      "ComparisonOperator": "GREATER_THAN",
+      "Threshold": 100.0,
+      "ThresholdType": "PERCENTAGE",
+      "NotificationState": "ALARM"
+    },
+    "Subscribers": [
+      {
+        "SubscriptionType": "EMAIL",
+        "Address": "network.app1410@gmail.com"
+      }
+    ]
+  },
+  {
+    "Notification": {
+      "NotificationType": "ACTUAL",
+      "ComparisonOperator": "GREATER_THAN",
+      "Threshold": 80.0,
+      "ThresholdType": "ABSOLUTE_VALUE",
+      "NotificationState": "ALARM"
+    },
+    "Subscribers": [
+      {
+        "SubscriptionType": "EMAIL",
+        "Address": "network.app1410@gmail.com"
+      }
+    ]
+  }
+]

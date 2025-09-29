@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "60231df3-cb8a-4181-aa06-b1db68282c58"
+      }
+    },
+    "android": {
+      "package": "com.harshith3105.finalnetwork"
+    }
+  }
+}

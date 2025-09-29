@@ -1,0 +1,29 @@
+{
+  "BudgetName": "FinalNetwork-Monthly-Budget",
+  "BudgetLimit": {
+    "Amount": "80.00",
+    "Unit": "USD"
+  },
+  "TimeUnit": "MONTHLY",
+  "TimePeriod": {
+    "Start": "2025-09-01T00:00:00Z",
+    "End": "2026-12-31T23:59:59Z"
+  },
+  "BudgetType": "COST",
+  "CostFilters": {
+    "Service": [
+      "Amazon Simple Storage Service",
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon DocumentDB",
+      "Amazon CloudFront",
+      "Amazon Route 53"
+    ]
+  },
+  "CalculatedSpend": {
+    "ActualSpend": {
+      "Amount": "0.00",
+      "Unit": "USD"
+    }
+  }
+}
