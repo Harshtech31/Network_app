@@ -1,0 +1,14 @@
+{
+  "name": "final-network-backend-minimal",
+  "version": "1.0.0",
+  "description": "Minimal backend for Lambda deployment",
+  "main": "lambda-simple.js",
+  "dependencies": {
+    "@vendia/serverless-express": "^4.10.4",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

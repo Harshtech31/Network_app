@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Network",
+    "slug": "network",
+    "version": "1.0.0",
+    "projectId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "orientation": "portrait",
+    "icon": "./assets/images/network-logo.png",
+    "scheme": "network",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/network-logo.png",
+        "backgroundColor": "#FFF2E8"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.harshith3105.network",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "NOTIFICATIONS"
+      ],
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/network-logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/network-logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFF2E8"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/network-logo.png",
+          "color": "#7f1d1d",
+          "defaultChannel": "default"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "NODE_ENV": "development",
+      "router": {},
+      "eas": {
+        "projectId": "6972bf72-287f-4d9e-908a-ca739816a2ed"
+      }
+    }
+  }
+}

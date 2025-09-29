@@ -1,0 +1,13 @@
+{
+  "name": "final-network-database",
+  "version": "1.0.0",
+  "description": "Database dependencies for Final Network",
+  "main": "lambda-simple.js",
+  "dependencies": {
+    "mongodb": "^5.9.0",
+    "aws-sdk": "^2.1500.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

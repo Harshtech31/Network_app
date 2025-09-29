@@ -1,0 +1,9 @@
+{
+  "NetworkStagingStack": {
+    "stagingDatabaseEndpoint": "network-staging-cluster.cluster-cm90g0mwgqdr.us-east-1.docdb.amazonaws.com:27017",
+    "stagingLambdaFunctionName": "NetworkStagingStack-stagingBackendLambdaBFED39A4-Zlrf3U8uW5dk",
+    "stagingApiEndpoint6DAAD8BE": "https://okwqa5c1hk.execute-api.us-east-1.amazonaws.com/staging/",
+    "stagingApiUrl": "https://okwqa5c1hk.execute-api.us-east-1.amazonaws.com/staging/",
+    "stagingSecretArn": "arn:aws:secretsmanager:us-east-1:693582802469:secret:stagingDBCredentialsFA9580F-naP8jPxnjRXG-SqNFyw"
+  }
+}
